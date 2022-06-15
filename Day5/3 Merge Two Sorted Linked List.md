@@ -1,6 +1,6 @@
 # [Merge Two Sorted Linked List](https://leetcode.com/problems/merge-two-sorted-lists/)
 
-### Code || (TBC)
+### Code || [Notes](https://drive.google.com/file/d/1P4SVd62cgJtOIiCj48Qxg0zCzANSbpIB/view?usp=sharing)
 
 ``` .cpp
 class Solution {
@@ -31,4 +31,9 @@ public:
         return head->next;
     }
 };
+```
+
+```
+TC:- O(n1 + n2)
+SC:- O(1)
 ```
