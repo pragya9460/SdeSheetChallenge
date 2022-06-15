@@ -1,6 +1,7 @@
 # [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
 
 ### Code || [Notes](https://drive.google.com/file/d/11m9R4jLyGg9s_h5E6jn57O55Qu3icclf/view?usp=sharing)
+
 ``` .cpp
 class Solution {
 public:
@@ -30,4 +31,9 @@ public:
        }
     }
 };
+```
+
+```
+TC:- O(n²)
+SC:- O(1)
 ```
