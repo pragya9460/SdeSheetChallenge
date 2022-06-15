@@ -19,3 +19,8 @@ int Solution::solve(vector<int> &a, int B) {
 }
 
 ```
+
+```
+TC:- O(nlogn)
+SC:- O(n)
+```
