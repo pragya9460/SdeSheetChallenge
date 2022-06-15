@@ -1,6 +1,6 @@
 # [Reverse a Linkedlist](https://leetcode.com/problems/reverse-linked-list/)
 
-### Code || (TBC)
+### Code || [Notes](https://drive.google.com/file/d/1PSmdcgoXevDJGxgWavgH4rq2JcEhsEYf/view?usp=sharing)
 
 ``` .cpp
 class Solution {
@@ -16,4 +16,9 @@ public:
         return newhead;
     }
 };
+```
+
+```
+TC:- O(n)
+SC:- O(1)
 ```
