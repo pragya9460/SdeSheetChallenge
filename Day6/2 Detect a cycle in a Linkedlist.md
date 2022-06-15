@@ -1,6 +1,6 @@
 # [Detect a cycle in a Linkedlist](https://leetcode.com/problems/linked-list-cycle/)
 
-### Code || (TBC)
+### Code || [Notes](https://drive.google.com/file/d/1K81dPr10I5cM8KXHrojKW_YBg6U5w07O/view?usp=sharing)
 
 ``` .cpp
 class Solution {
@@ -20,4 +20,9 @@ public:
         return false;
     }
 };
+```
+
+```
+TC:- O(n)
+SC:- O(1)
 ```
