@@ -1,6 +1,6 @@
 # [Inversion of Array](https://practice.geeksforgeeks.org/problems/inversion-of-array-1587115620/1/)
 
-### Code || [Notes]()
+### Code || [Notes](https://drive.google.com/file/d/1F8e4D4vQpqpWCkANr-_Hc9z0WTTILYdc/view?usp=sharing)
 
 ``` .cpp
 long long merge(long long arr[],long long temp[],long long left,long long mid,long long right)
@@ -53,4 +53,9 @@ long long int inversionCount(long long arr[], long long n)
     return ans;
     // Your Code Here
 }
+```
+
+```
+TC:- O(nlogn)
+SC:- O(n)
 ```
