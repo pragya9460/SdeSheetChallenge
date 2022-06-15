@@ -1,6 +1,6 @@
 # [Check if Linkedlist is palindrome or not](https://leetcode.com/problems/palindrome-linked-list/)
 
-### Code || (TBC)
+### Code || [Notes](https://drive.google.com/file/d/11JBH_JKoWqxNE3A1NrOk7ofLfJuYeiFF/view?usp=sharing)
 
 ``` .cpp
 class Solution {
@@ -35,4 +35,9 @@ public:
         return true;
     }
 };
+```
+
+```
+TC:- O(n)
+SC:- O(1)
 ```
