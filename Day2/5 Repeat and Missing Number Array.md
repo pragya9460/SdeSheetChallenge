@@ -54,3 +54,8 @@ public:
     return {x, y};
 }
 ```
+
+```
+TC:- O(n)
+SC:- O(1)
+```
