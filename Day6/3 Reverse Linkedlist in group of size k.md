@@ -1,6 +1,6 @@
 # [Reverse Linkedlist in group of size k](https://leetcode.com/problems/reverse-nodes-in-k-group/)
 
-### Code || (TBC)
+### Code || [Notes](https://drive.google.com/file/d/1ewXciFlalfeBIlAAMm706dkS4lFzsdmr/view?usp=sharing)
 
 ```.cpp
 class Solution {
@@ -32,4 +32,9 @@ public:
         return dummy->next;
     }
 };
+```
+
+```
+TC:- O(n)
+SC:- O(1)
 ```
