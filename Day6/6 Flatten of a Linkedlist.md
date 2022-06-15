@@ -1,6 +1,6 @@
 # [Flatten of a Linkedlist](https://practice.geeksforgeeks.org/problems/flattening-a-linked-list/1)
 
-### Code || (TBC)
+### Code || [Notes](https://drive.google.com/file/d/11S-ETKZM7gE3syglyJTJ5C5ygj8FBbc4/view?usp=sharing)
 
 ``` .cpp
 Node* merge(Node* l1, Node* l2) {
@@ -38,4 +38,9 @@ Node *flatten(Node *root)
    root = merge(root, root->next);
    return root;
 }
+```
+
+```
+TC:- O(Total no. of nodes in main branch)
+SC:- O(1)
 ```
