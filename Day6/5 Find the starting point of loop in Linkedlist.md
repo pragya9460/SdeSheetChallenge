@@ -1,6 +1,6 @@
 # [Find the starting point of loop in Linkedlist](https://leetcode.com/problems/linked-list-cycle-ii/)
 
-### Code || (TBC)
+### Code || [Notes](https://drive.google.com/file/d/1gJpOs6yfKMeMWykOjO28ueKz8rYYkUMG/view?usp=sharing)
 
 ``` .cpp
 class Solution {
@@ -26,4 +26,9 @@ public:
         return fast;
     }
 };
+```
+
+```
+TC:- O(n)
+SC:- O(1)
 ```
