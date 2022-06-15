@@ -1,23 +1,27 @@
 # [Remove nth node from back of LinkedList](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
 
-### Code || (TBC + code bhi update krna h)
+### Code || [Notes](https://drive.google.com/file/d/1P6s6vE_p53GiclOUpzYOi2SfimDVFN_x/view?usp=sharing)
 ``` .cpp
 class Solution {
 public:
     ListNode* removeNthFromEnd(ListNode* head, int n) {
-        ListNode* dummy = new ListNode(0);
-        dummy->next = head;
-        ListNode* first=dummy;
-        ListNode* second=dummy;
-        for(int i=0; i<n; i++){
-            second = second->next;
+        ListNode* start = new ListNode();
+        start->next = head;
+        ListNode* fast = start, *slow = start;
+        for(int i=1; i<=n; i++){
+            fast = fast->next;
         }
-        while(second->next!=NULL){
-            first=first->next;
-            second = second->next;
+        while(fast->next!=NULL){
+            fast = fast->next;
+            slow = slow->next;
         }
-        first->next = first->next->next;
-        return dummy->next;
+        slow->next = slow->next->next;
+        return start->next;
     }   
 };
+```
+
+```
+TC:- O(n)
+SC:- O(1)
 ```
