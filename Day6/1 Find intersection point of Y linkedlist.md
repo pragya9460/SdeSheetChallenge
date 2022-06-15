@@ -1,6 +1,6 @@
 # [Find intersection point of Y linkedlist](https://leetcode.com/problems/intersection-of-two-linked-lists/)
 
-### Code || (TBC)
+### Code || [Notes](https://drive.google.com/file/d/1GD6bHQbXO3FjAsOTLH-aT-cjZdLt58Ov/view?usp=sharing)
 
 ``` .cpp
 class Solution {
@@ -17,4 +17,9 @@ public:
         return a;
     }
 };
+```
+
+```
+TC:- O(2n)
+SC:- O(1)
 ```
