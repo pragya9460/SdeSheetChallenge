@@ -1,6 +1,6 @@
 # [Add two numbers as Likedlist](https://leetcode.com/problems/add-two-numbers/)
 
-### Code || (TBC)
+### Code || [Notes](https://drive.google.com/file/d/1P7mVNcGfKjAM-ZRuF04Dnmi6qH1_3I9O/view?usp=sharing)
 
 ``` .cpp
 class Solution {
@@ -31,4 +31,9 @@ public:
         return dummy->next;
     }
 };
+```
+
+```
+TC:- O(max(m, n))
+SC:- O(N)   where, (N = m+n)
 ```
