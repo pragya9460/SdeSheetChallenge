@@ -1,4 +1,4 @@
-# [](https://leetcode.com/problems/next-permutation/)
+# [Next Permutation](https://leetcode.com/problems/next-permutation/)
 
 ### Code || [Note](https://drive.google.com/file/d/11lZlF6Plh-yoMTHDeOMSwszoZiyAZ2ss/view?usp=sharing)
 
@@ -26,4 +26,9 @@ public:
         }
     }
 };
+```
+
+```
+TC:- O(n)
+SC:- O(1)
 ```
