@@ -5,27 +5,33 @@
 ``` .cpp
 class Solution {
 public:
-    void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
-        int i=m-1, j=n-1, k=m+n-1;
-        while(i>=0 and j>=0){
-            if(nums1[i]>nums2[j]){
-                nums1[k]=nums1[i];
-                i--;
-                k--;
+//     Using Gap Fill method
+    void merge(vector<int>& v1, int m, vector<int>& v2, int n) {
+        int gap = ceil((float)(m+n)/2);
+        int i, j;
+        while(gap>0){
+            i=0, j=gap;
+            while(j<(m+n)){
+                if(j<m and v1[i]>v1[j]){
+                    swap(v1[i], v1[j]);
+                }
+                else if(i<m and j>=m and v1[i]>v2[j-m]){
+                    swap(v1[i], v2[j-m]);
+                }
+                else if(i>=m and j>=m and v2[i-m]>v2[j-m]){
+                    swap(v2[i-m], v2[j-m]);
+                }
+                i++; j++;
             }
-            else{
-                nums1[k]=nums2[j];
-                j--;
-                k--;
-            }
+            if(gap==1)  gap=0;
+            else     gap = ceil((float)gap/2);
         }
-        while(j>=0){
-            nums1[k]=nums2[j];
-            j--;
-            k--;
+        for(int i=m; i<m+n; i++){
+            v1[i]=v2[i-m];
         }
     }
 };
+
 ```
 
 ```
