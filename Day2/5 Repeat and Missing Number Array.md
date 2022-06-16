@@ -40,19 +40,23 @@ public:
         else
             y = y ^ i;
     }
-};
 
-    int x_count = 0;
-    for (int i=0; i<n; i++) {
-        if (arr[i]==x)
-            x_count++;
-    }
     
-    if (x_count==0)
-        return {y, x};
-    
-    return {x, y};
-}
+        int xc =0;
+        for(int i=0; i<n; i++){
+            if(arr[i]==x){
+                xc++;
+            }
+        }
+        if(xc==2){
+            ans[0]=x, ans[1]=y;
+        } 
+        else{
+            ans[0]=y, ans[1]=x;
+        }
+        return ans;
+     }
+};
 ```
 
 ```
