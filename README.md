@@ -1,6 +1,6 @@
 # SdeSheetChallenge
 
-This is a sheet consisting of about 180 questions and to be done in 30 days
+This is a sheet consisting of about 180 questions.
 
 ### Notes  
 [Day1](https://drive.google.com/file/d/1UYMW7mdhpmVZrQdrY2CtQstz41WM2w8z/view?usp=sharing)  
