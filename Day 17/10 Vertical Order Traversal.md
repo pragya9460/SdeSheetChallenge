@@ -40,6 +40,6 @@ public:
 ```
 
 ```
-TC:-
-SC:-
+TC:- O(N*logN*logN*logN)
+SC:- O(2N)
 ```
