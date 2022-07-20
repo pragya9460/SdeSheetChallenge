@@ -60,6 +60,32 @@ SC:- O(2n)
 ```
 
 ### Iterative Code (Using one stack)
+
+#### Code(Approach 1)
+Very minor change on previous code
+
+``` .cpp
+class Solution {
+public:
+    vector<int> postorderTraversal(TreeNode* root) {
+        vector<int> v;
+        if(!root)return v;
+        stack<TreeNode*> st1;
+        st1.push(root);
+        while(!st1.empty()){
+            TreeNode* node=st1.top();
+            st1.pop();
+            v.push_back(node->val);
+            if(node->left)st1.push(node->left);
+            if(node->right)st1.push(node->right);
+        }
+        reverse(v.begin(), v.end());
+        return v;
+    }
+};
+```
+
+#### Code(Approach 2)
 ``` .cpp
 class Solution {
 public:
