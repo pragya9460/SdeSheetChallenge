@@ -25,6 +25,6 @@ public:
 ```
 
 ```
-TC:- O(n)
-SC:- O(n), ---> Recursive stack space
+TC:- O(log n)
+SC:- O(log n), ---> Recursive stack space
 ```
